@@ -1,0 +1,56 @@
+[
+    {
+        "carBrand": "Toyota",
+        "carName": "Corolla",
+        "carModel": "Sedan",
+        "productionYear": "2020",
+        "price": "934500",
+        "kilometer": "15000",
+        "carImage": "images/toyotacorolla.jpg"
+    },
+    {
+        "carBrand": "Honda",
+        "carName": "Civic",
+        "carModel": "Hatchback",
+        "productionYear": "2019",
+        "price": "480000",
+        "kilometer": "100000",
+        "carImage": "images/hondacivic.jpg"
+    },
+    {
+        "carBrand": "Bugatti",
+        "carName": "Chiron",
+        "carModel": "8.0",
+        "productionYear": "2017",
+        "price": "165000000",
+        "kilometer": "7500",
+        "carImage": "images/bugatti.jpg"
+    },
+    {
+        "carBrand": "Audi",
+        "carName": "A6",
+        "carModel": "2.0 TDI QUATTRO",
+        "productionYear": "2016",
+        "price": "1690000",
+        "kilometer": "146000",
+        "carImage": "images/audia6.jpg"
+    },
+    {
+        "carBrand": "Audi",
+        "carName": "A8",
+        "carModel": "5.0 TDI QUATTRO",
+        "productionYear": "2020",
+        "price": "6250000",
+        "kilometer": "199000",
+        "carImage": "images/audia8.jpg"
+    },
+    {
+        "carBrand": "Toyota",
+        "carName": "Supra",
+        "carModel": "GR 3.0",
+        "productionYear": "2019",
+        "price": "6900000",
+        "kilometer": "30000",
+        "carImage": "images/toyotasupra.jpg"
+    }
+]

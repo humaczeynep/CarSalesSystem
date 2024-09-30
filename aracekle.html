@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleAracEkle.css">
+    <script defer src="./actions.js"></script>
+
+    <title>Araç Ekle</title>
+</head>
+<body>
+
+    <nav>
+        <label class ="writing">Araç Ekle</label>
+        <ul>
+            <li><a href="otogaleri.html">Ana Sayfa</a></li>
+            <li><a href="araclistesi.html">Araç Listesi</a></li>
+        </ul>
+    </nav>
+
+    <div class="left-container">
+        <div class="sidebar">
+
+            <div class="logo">
+                <img src="logo.jpg">
+            </div>
+            
+        </div>
+    </div>
+    <form id="addCarForm">
+        <div id="addedCarInfo">
+            <label for="carBrand">Marka:</label>
+            <input type="text" id="carBrand" >
+
+            <label for="carName">Araç İsmi:</label>
+            <input type="text" id="carName" >
+
+            <label for="carModel">Araç Modeli:</label>
+            <input type="text" id="carModel" >
+
+            <label for="productionYear">Üretim Yılı:</label>
+            <input type="text" id="productionYear" >
+
+            <label for="carImage">Araç Görseli:</label>
+            <input type="file" id="carImage" accept="image/*" >
+
+            <label for="price">Fiyat:</label>
+            <input type="text" id="price" >
+
+            <label for="kilometer">Kilometre:</label>
+            <input type="text" id="kilometer" >
+            
+            <button class="addCar" onclick="addCar()" type="button" >Aracı Ekle</button>
+        </div>
+        
+        
+
+    </form>
+    <br>
+    <br>
+</body>
+</html>
